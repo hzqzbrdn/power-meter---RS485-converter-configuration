@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PORT="/dev/ttyUSB0"   # Update if needed
-BAUD="9600"           # Try 9600 first, then 19200 or 115200
+BAUD="19200"           # Try 9600 first, then 19200 or 115200
 
 # Configure serial port
 stty -F "$PORT" $BAUD cs8 -cstopb -parenb -echo -ixon -crtscts raw
