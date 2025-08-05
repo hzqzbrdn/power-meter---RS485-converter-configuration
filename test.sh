@@ -3,6 +3,8 @@
 PORT="/dev/ttyUSB0"   # Update if needed
 BAUD="19200"           # Try 9600 first, then 19200 or 115200
 
+sudo chmod 666 /dev/ttyUSB0
+
 # Configure serial port
 stty -F "$PORT" $BAUD cs8 -cstopb -parenb -echo -ixon -crtscts raw
 
