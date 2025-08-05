@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PORT="COM3"   # Update based on your adapter
+PORT="/dev/ttyUSB0"   # Update based on your adapter
 INITIAL_BAUD="9600"
 NEW_BAUD="19200"
 
