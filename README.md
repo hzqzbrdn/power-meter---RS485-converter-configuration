@@ -6,4 +6,8 @@ sudo bash <(curl -s https://raw.githubusercontent.com/hzqzbrdn/power-meter---RS4
 
 curl -s https://raw.githubusercontent.com/hzqzbrdn/power-meter---RS485-converter-configuration/main/schneider_rs485.sh | sudo -E bash
 
+curl -sO https://raw.githubusercontent.com/hzqzbrdn/power-meter---RS485-converter-configuration/main/test_at.py
+sudo python3 test_at.py
+
+
 
